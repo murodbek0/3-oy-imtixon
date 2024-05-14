@@ -978,4 +978,42 @@ body {
   text-align: center;
   color: #ffffff;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 729px) {
+  container {
+    width: 690px;
+  }
+  .comtainer__section {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .car {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    width: 690px;
+    height: 54px;
+    font-size: 44px;
+    font-family: 600;
+    line-height: 55px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    width: 690px;
+    height: 65px;
+  }
+  span {
+    text-align: center;
+    margin: auto;
+  }
+  img {
+    width: 690px;
+    height: 354px;
+    background-image: url(../images/car.png);
+  }
 }/*# sourceMappingURL=style.css.map */
